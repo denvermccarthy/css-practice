@@ -1,3 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bold {
+    font-weight: 1000;
+}
+
+.hello {
+    color: rgb(204, 204, 204)
+}
 body {
    --nav-color: rgb(35, 47, 62);
    --header-color: rgb(34, 45, 60);
@@ -45,6 +57,10 @@ body {
     color: white;
 }
 
+#america {
+    width: 50px;
+}
+
 .nav-item {
     padding: 1em;
 }
@@ -53,16 +69,33 @@ body {
     border: 2px solid white;
 }
 
+#input {
+    width: 30vw;
+    height: 3vw;
+}
+
+.search select{
+    height: 3vw;
+}
+
+.search select{
+    height: 3vw;
+}
+
 .header {
     background-color: var(--header-color);
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 30px;
 }
 
 #header-img {
     width: 200px;
 }
 
-#a-address {
+a {
     text-decoration: none;
     color: white;
 }
