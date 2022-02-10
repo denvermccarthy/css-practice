@@ -38,6 +38,7 @@ body {
 body {
     background-image: url(../assets/series.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* .main {
