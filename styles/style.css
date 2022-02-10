@@ -27,12 +27,17 @@ body {
         'item1 item2 item3 item4'
         'item5 item6 item7 item8'
         ;
-
     }
     .main div {
         align-self: center;
         place-self: center
     }
+
+}
+
+body {
+    background-image: url(../assets/series.jpg);
+    background-size: cover;
 }
 
 /* .main {
@@ -89,6 +94,7 @@ body {
     align-items: center;
     justify-content: space-around;
     column-gap: 30px;
+    height: 60px;
 }
 
 #header-img {
@@ -106,4 +112,10 @@ a {
 
 span {
     font-weight: 1000;
+}
+
+.main-info {
+    border: 2px black solid;
+    margin: 30px;
+    background-color: white;
 }
